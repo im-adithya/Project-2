@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style-2.css">
+  <title>Survey-Form</title>
+</head>
+<body>
+<h1 class="start" id="title">Service - company survey form</h1>
+<p class="start" id="description">Thankyou for taking your time to help us improve</p>
+<form id="survey-form">
+  <div>
+    <label for="name" id="name-label" class="labels">Name</label>
+    <input
+      type="text"
+      id="name"
+      placeholder="Enter your name"
+      name="name"
+      class="boxes"
+      required
+      />
+  </div>
+  <div>
+    <label for="email" id="email-label" class="labels">E-mail</label>
+    <input
+      type="email"
+      id="email"
+      placeholder="Enter your email"
+      name="email"
+      class="boxes"
+      required
+      />
+  </div>
+  <div>
+    <label for="number" id="number-label" class="labels">Age</label>
+    <input
+      type="number"
+      id="number"
+      placeholder="Enter your number"
+      min="10"
+      max="99"
+      name="age"
+      class="boxes"
+      />
+  </div>
+  <div>
+    <p>Which option best describes your current role</p>
+    <select id="dropdown" class="boxes drop" name="Occupation">
+      <option disabled selected value>Select current role</option>
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Full time learner</option>
+      <option>Other</option>
+      <option>Prefer Not To Say</option>
+    </select>
+  </div>
+  <div>
+    <p>Would you recommend our service to a friend?</p>
+    <label>
+    <input
+      type="radio"
+      value="Definitely"
+      name="radio-buttons"
+      />Definitely
+    </label>
+    <label>
+    <input
+      type="radio"
+      value="Maybe"
+      name="radio-buttons"
+      />Maybe
+    </label>
+    <label>
+    <input
+      type="radio"
+      value="Not sure"
+      name="radio-buttons"
+      />Not sure
+    </label>
+  </div>
+  <div>
+    <p>What is your favorite feature of "service-company"</p>
+    <select id="feature" class="boxes drop" name="feature">
+      <option disabled selected value>Select an option</option>
+      <option>Customer satisfaction</option>
+      <option>24/7 availabilty</option>
+      <option>Reach throughout the country</option>
+      <option>Cheap rates</option>
+      <option>High quality services</option>
+    </select>
+  </div>
+  <div>
+    <p>What feature would you like to get improved by us</p>
+    <label class="checks">
+    <input
+      type="checkbox"
+      value="Number of services"
+      name="checks"
+      />Number of services
+    </label>
+    <label class="checks">
+    <input
+      type="checkbox"
+      value="Speed"
+      name="checks"
+      />Speed
+    </label>
+    <label class="checks">
+    <input
+      type="checkbox"
+      value="Website"
+      name="checks"
+      />Website
+    </label>
+    <label class="checks">
+    <input
+      type="checkbox"
+      value="Mobile-App"
+      name="checks"
+      />Mobile App
+    </label>
+    <label class="checks">
+    <input
+      type="checkbox"
+      value="Helpline"
+      name="checks"
+      />Helpline
+    </label>
+  </div>
+  <div>
+    <p>Any other suggestions . . .</p>
+    <textarea
+      id="suggestions"
+      placeholder="Enter your valuable suggestions here"
+    ></textarea>
+  <button
+    type="submit"
+    id="submit"
+    >Submit
+  </button>
+</form>
+</body>
