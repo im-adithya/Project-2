@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  background-attachment:fixed;
+  background-color:#e69b3a;
+  background-size:cover;
+  background-position: center;
+  background-image: linear-gradient(
+      115deg,
+      #4CAF50,
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://live.mgm-cp.com/wp-content/uploads/2018/02/Fotolia_172013830_M.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: 'Poppins';
+  color:white;
+}
+
+.start {
+  background-color: ;
+  color:white;
+  text-align: center;
+}
+
+#description {
+  margin: -10px 0px 10px;
+  font-style:italic;
+}
+
+form {
+  background-color: rgba(63, 81, 181, 0.67);
+  max-width: 700px;
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+  position: center;
+  margin: 0px auto 0px auto;
+  font-size: 20px;
+}
+
+.labels {
+  display: block;
+  margin: 35px 0px 10px 0px;
+}
+
+.boxes {
+  border-radius: 5px;
+  border-color: rgb(63, 81, 255, 0.6);
+  width: 90%;
+  height: 35px;
+  font-size:15px;
+  font-family:'Poppins';
+  padding: 0px 0px 0px 10px;
+}
+
+.checks {
+  display: block;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+  display: block;
+  margin: -10px auto 10px auto;
+  border-radius: 5px;
+  border-color: rgb(63, 81, 255, 0.6);
+  font-family: 'Poppins';
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+#submit {
+  display: block;
+  border:none;
+  border-radius:5px;
+  background-color: #4CAF50;
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 15px;
+  margin: 0px auto 0px auto ;
+}
+
+div {
+  padding: 0px auto 0px auto;
+}
+
+.drop {
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  form {
+    font-size: 18px;
+  }
+  .drop {
+    font-size: 15px;
+  }
+  .boxes {
+    font-size: 15px;
+  }
+}
